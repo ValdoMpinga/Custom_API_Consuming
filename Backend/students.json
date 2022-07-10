@@ -1,0 +1,52 @@
+[
+  {
+    "Img": "https://aui.atlassian.com/aui/8.8/docs/avatars.html",
+    "firstName": "Anna Luiza",
+    "lastName": "Luiza",
+    "school": "Escola superior de tecnologia de gestão",
+    "description": "Fofa da ESTG",
+    "email": "anna@ipvc.pt",
+    "cell": "912345678",
+    "advice": "escute muito BTS!!!!"
+  },
+  {
+    "Img": "https://aui.atlassian.com/aui/8.8/docs/avatars.html",
+    "firstName": "Leonardo",
+    "lastName": "Lopez",
+    "school": "Escola superior de tecnologia de gestão",
+    "description": "Homem dos duplos sentidos",
+    "email": "leo@ipvc.pt",
+    "cell": "912345678",
+    "advice": "Beba muita cerveja"
+  },
+  {
+    "Img": "https://aui.atlassian.com/aui/8.8/docs/avatars.html",
+    "firstName": "Mauro",
+    "lastName": "Luis",
+    "school": "Escola superior de tecnologia de gestão",
+    "description": "Cantor da ESTG",
+    "email": "mauro@ipvc.pt",
+    "cell": "912345678",
+    "advice": "Cante muito!"
+  },
+  {
+    "Img": "https://aui.atlassian.com/aui/8.8/docs/avatars.html",
+    "firstName": "Maria",
+    "lastName": "Vivian",
+    "school": "Escola superior de tecnologia de gestão",
+    "description": "Gata da ESTG",
+    "email": "marivivian@ipvc.pt",
+    "cell": "912345678",
+    "advice": "Estude muito!"
+  },
+  {
+    "Img": "https://aui.atlassian.com/aui/8.8/docs/avatars.html",
+    "firstName": "Jackson",
+    "lastName": "Barreto",
+    "school": "Escola superior de tecnologia de gestão",
+    "description": "Rei do brasil",
+    "email": "jack@ipvc.pt",
+    "cell": "912345678",
+    "advice": "Pare de procrastinar, pois a vida não é um filme da Disney"
+  }
+]
