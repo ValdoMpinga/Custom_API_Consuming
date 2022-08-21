@@ -1,9 +1,11 @@
+const { log } = require("console");
+
 const cardContainer = document.querySelector('.cardContainer');
 
 async function injectRealStudentsCards()
 {
 
-    const data = await fetch("4000/get/students")
+    const data = await fetch("http://127.0.0.1:4000/get/students")
     const realStudens = await data.json()
     console.log("Here: " + realStudens);
 
@@ -36,15 +38,19 @@ async function injectCards()
         const randomUserResponse = await fetch('https://randomuser.me/api/?results=5')
         const students = await randomUserResponse.json();
 
+        console.log(students);
+        console.log("MAde it");
+
         students.results.forEach(async (result) =>
         {
             //advice fetch
             const slipResponse = await fetch(`https://api.adviceslip.com/advice/${Math.floor(Math.random() * 200) + 1}`)
 
             const advice = await slipResponse.json();
+            console.log(advice);
 
             //translated advice fetch
-            translatedSlip=await fetch(":4000/get/translation", {
+            translatedSlip = await fetch("http://127.0.0.1:4000/get/translation", {
                  method: 'POST',
                  body: JSON.stringify({
                      text: advice.slip.advice,

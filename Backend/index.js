@@ -17,12 +17,14 @@ app.listen
 
 app.post('/get/translation', async (request, response) =>
 {
+    console.log("Here");
     try
     {
         response.json(await middlewareInstance.translator(request.body.text, request.body.language));
         console.log("Translation returned succesdsfully!")
     } catch (e)
     {
+        console.log("Error occured");
         console.log(e);
     }
 })
@@ -31,7 +33,6 @@ app.get('/get/students', async (request, response) =>
 {
     try
     {
-        
         let data = fs.readFileSync('students.json');
         console.log("oi");
         let students = JSON.parse(data);

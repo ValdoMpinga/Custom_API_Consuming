@@ -2,6 +2,7 @@ const { Translate } = require('@google-cloud/translate').v2;
 
 async function  translator(text,language)
 {
+    console.log("in");
     const credentials = JSON.parse(process.env.CREDENTIALS)
 
     const translate = new Translate({ credentials: credentials, projectId: credentials.project_id })
